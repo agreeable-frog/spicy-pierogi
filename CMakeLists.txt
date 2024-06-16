@@ -21,7 +21,6 @@ find_package(glm REQUIRED)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra")
-set(CONFIG_PATH ${CMAKE_CURRENT_SOURCE_DIR}/config)
 
 add_executable(${PROJECT_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cc)
 target_link_libraries(${PROJECT_NAME} PRIVATE jsoncpp_lib log4cplus::log4cplus Vulkan::Vulkan glfw glm::glm)
