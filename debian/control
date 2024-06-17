@@ -1,7 +1,5 @@
 libjsoncpp-dev
 liblog4cplus-dev
-shaderc
 vulkan-sdk
 libglfw3-dev
 libglm-dev
-volk
